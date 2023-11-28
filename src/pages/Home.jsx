@@ -47,7 +47,7 @@ function Home() {
         <div className='flex flex-wrap justify-evenly mb-40 mt-10'>
 
             <CardSide
-                image={oldgames}
+                image={newgames}
                 alt="Old Games"
                 title="Checkout The Classics!"
                 description="Dive in to find the nostalgic games that made your childhood!
