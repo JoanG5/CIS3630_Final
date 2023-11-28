@@ -11,6 +11,10 @@ import temp3 from "../assets/temp3.gif"
 function Home() {
   return (
     <div>
+
+        {/* FIX SLIDE SO IT GOES TO THE TOP OF PAGE */}
+        {/* FIX SLIDE SO THAT ITS A BACKGROUND CONTAIN */}
+
         <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
             <img src={temp1} className="w-full" style={{ width: '100%wv', height: '400px' }} />
@@ -40,7 +44,7 @@ function Home() {
             <a href="#slide3" className="btn btn-xs">3</a> 
         </div>
 
-        <div className='flex flex-wrap justify-evenly mb-80 mt-10'>
+        <div className='flex flex-wrap justify-evenly mb-40 mt-10'>
 
             <CardSide
                 image={oldgames}

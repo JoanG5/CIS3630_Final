@@ -6,17 +6,17 @@ import PFP from '../assets/defaultpfp.png'
 function Navbar() {
   return (
     <>
-        <div className="navbar bg-base-100 sticky top-0 z-10">
+        <div className="navbar bg-[#ff8b2b] sticky top-0 z-10">
         <div className="flex-1">
 
             <a className="btn "><img src={Icon} alt="icon" style={{ width: '50px', height: '50px' }}/></a>
-
+            {/* GOTTA FIX THIS NAV BUTTON */}
             <header>
             <div className="btn-group">
-                <Link to={"/"} className="btn btn-ghost">Home</Link>
-                <Link to={"/newgames"} className="btn btn-ghost">New Games</Link>
-                <Link to={"/oldgames"} className="btn btn-ghost">Old Games</Link>
-                <Link to={"/cart"} className="btn btn-ghost">Cart</Link>
+                <Link to={"/"} className="btn btn-ghost text-white">Home</Link>
+                <Link to={"/newgames"} className="btn btn-ghost text-white">New Games</Link>
+                <Link to={"/oldgames"} className="btn btn-ghost text-white">Old Games</Link>
+                <Link to={"/cart"} className="btn btn-ghost text-white">Cart</Link>
             </div>
             </header>
         </div>
