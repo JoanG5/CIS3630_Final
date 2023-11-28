@@ -3,9 +3,9 @@ import React from 'react'
 function CardItem( props ) {
   return (
     <div className="card w-56 bg-base-100 card-compact shadow-xl m-5 ">
-        <figure><img src={props.image} alt={props.alt} /></figure>
+        <figure><img src={props.image} alt={props.alt} style={{ minHeight: '250px', minWidth: '250px' }} /></figure>
         <div className="card-body">
-            <h2 className="card-title">{props.title}</h2>
+            <h2 className="card-title text-ellipsis overflow-hidden">{props.title}</h2>
 
             <div className="rating rating-sm pointer-events-none">
                 <input type="radio" name="rating-1" className="mask mask-star" />
