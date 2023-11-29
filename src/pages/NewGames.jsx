@@ -3,18 +3,18 @@ import axios from 'axios'
 import CardItem from '../components/CardItem'
 import Sidebar from '../components/Sidebar'
 
-// const options = {
-//   method: 'GET',
-//   url: 'https://all-in-one-all-in-one.p.rapidapi.com/category',
-//   params: {
-//     platform: 'playstation',
-//     page_no: '1'
-//   },
-//   headers: {
-//     'X-RapidAPI-Key': 'e596ff4a8emshb56dc10f4742f74p1c5247jsna327d8994d77',
-//     'X-RapidAPI-Host': 'all-in-one-all-in-one.p.rapidapi.com'
-//   }
-// };
+const options = {
+  method: 'GET',
+  url: 'https://all-in-one-all-in-one.p.rapidapi.com/category',
+  params: {
+    platform: 'playstation',
+    page_no: '1'
+  },
+  headers: {
+    'X-RapidAPI-Key': 'e596ff4a8emshb56dc10f4742f74p1c5247jsna327d8994d77',
+    'X-RapidAPI-Host': 'all-in-one-all-in-one.p.rapidapi.com'
+  }
+};
 
 function NewGames() {
   
