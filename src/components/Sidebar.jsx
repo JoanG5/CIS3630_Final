@@ -13,9 +13,18 @@ function Sidebar() {
             <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label> 
             <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
             {/* Sidebar content here */}
-            <li><a>Sidebar Item 1</a></li>
-            <li><a>Sidebar Item 2</a></li>
+              <h1 className='text-lg'>Console:</h1>
+              <select className="select select-bordered w-full max-w-xs">
+                <option disabled selected>Select</option>
+                <option>PS5</option>
+                <option>XboX</option>
+                <option>Nintendo Switch</option>
+                <option>PC</option>
+              </select>
+              <h1 className='text-lg'>Price Range:</h1>
+              <input type="range" min={0} max="100" value="40" className="range" />
             </ul>
+
         
         </div>
     </div>

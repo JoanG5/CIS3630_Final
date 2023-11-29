@@ -6,7 +6,7 @@ import newgames from '../assets/newgames.jpg'
 
 import temp1 from "../assets/temp1.jpg"
 import temp2 from "../assets/temp2.jpg"
-import temp3 from "../assets/temp3.gif"
+import temp3 from "../assets/temp3.jpg"
 
 function Home() {
   return (
@@ -47,7 +47,7 @@ function Home() {
         <div className='flex flex-wrap justify-evenly mb-40 mt-10'>
 
             <CardSide
-                image={newgames}
+                image={oldgames}
                 alt="Old Games"
                 title="Checkout The Classics!"
                 description="Dive in to find the nostalgic games that made your childhood!
@@ -67,29 +67,30 @@ function Home() {
         <div className='flex flex-wrap justify-evenly my-20'>
 
             <Card
-                image={temp1}
+                image="https://media.rawg.io/media/games/a8a/a8a74f30ce82dbde168176a4aa04ac58.jpg"
+                alt="Game"
+                title="Action Game"
+                description="Action games"
+            />
+            <Card
+                image="https://media.rawg.io/media/games/73b/73bcfec00beec38a3d3527db4f9b8c53.jpg"
                 alt="Game"
                 title="Horror"
                 description="Spooky games"
             />
             <Card
-                image={temp1}
+                image="https://media.rawg.io/media/games/55e/55e23d1452e7f7f0295c4fe2a4d298b5.jpg"
                 alt="Game"
-                title="Horror"
-                description="Spooky games"
+                title="Casual"
+                description="Casual games"
             />
             <Card
-                image={temp1}
+                image="https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
                 alt="Game"
-                title="Horror"
-                description="Spooky games"
+                title="Survival"
+                description="Survival games"
             />
-            <Card
-                image={temp1}
-                alt="Game"
-                title="Horror"
-                description="Spooky games"
-            />
+            
 
         </div>
 
