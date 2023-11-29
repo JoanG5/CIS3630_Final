@@ -8,8 +8,8 @@ function CardSide( props ) {
 
 
         <div className="card-body max-w-sm">
-            <h1 className="card-title uppercase">{props.title}</h1>
-            <p>{props.description}</p>
+            <h1 className="card-title uppercase text-white">{props.title}</h1>
+            <p className='text-white'>{props.description}</p>
             <div className="card-actions justify-end">
               <button className="btn btn-primary">Go</button>
             </div>
