@@ -10,7 +10,7 @@ function Navbar() {
         <div className="flex-1">
 
             <a className="btn "><img src={Icon} alt="icon" style={{ width: '50px', height: '50px' }}/></a>
-            {/* GOTTA FIX THIS NAV BUTTON */}
+            {/* GOTTA FIX THIS NAV BUTTON ICON*/}
             <header>
             <div className="btn-group">
                 <Link to={"/"} className="btn btn-ghost text-white">Home</Link>
