@@ -52,7 +52,7 @@
           "genre": "Action-Platformer",
           "price": 22.99,
           "description": "Play as Mega Man and battle through robot bosses to save the world.",
-          "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Rockman_1987.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/en/d/dd/Mega_Man_1_box_artwork.jpg"
       },
       {
           "title": "Tetris",
@@ -61,7 +61,7 @@
           "genre": "Puzzle",
           "price": 12.99,
           "description": "Arrange falling blocks to complete lines and score points in this addictive puzzle game.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Typical_Tetris_Game.svg/800px-Typical_Tetris_Game.svg.png"
+          "image": "https://upload.wikimedia.org/wikipedia/en/7/7d/Tetris_NES_cover_art.jpg"
       },
       {
           "title": "Final Fantasy",
@@ -135,15 +135,15 @@
           "description": "Run, jump, and spin your way through levels as the speedy blue hedgehog Sonic.",
           "image": "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg"
       },
-    {
-        "title": "Pong",
-        "platform": "Arcade",
-        "releaseYear": 1972,
-        "genre": "Sports",
-        "price": 8.99,
-        "description": "Experience the classic game of virtual table tennis in Pong.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Pong.png"
-    }
+      {
+        "title": "Contra",
+        "platform": "Nintendo Entertainment System (NES)",
+        "releaseYear": 1988,
+        "genre": "Run and Gun",
+        "price": 25.99,
+        "description": "Team up with a friend and battle through side-scrolling levels filled with enemies.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/6/65/Contra_cover.jpg"
+      }
     ]  
 }
   

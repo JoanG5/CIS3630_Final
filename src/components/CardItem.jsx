@@ -3,7 +3,7 @@ import React from 'react'
 function CardItem( props ) {
   return (
     <div className="card w-72 min-h-auto bg-base-100 card-compact shadow-xl m-5 ">
-        <figure><img src={props.image} alt={props.alt} style={{ minHeight: '100px', minWidth: '250px' }} /></figure>
+        <figure><img src={props.image} alt={props.alt} style={{ minHeight: 'auto', minWidth: '100%' }} /></figure>
         <div className="card-body">
             <h2 className="card-title text-ellipsis overflow-hidden">{props.title}</h2>
 
@@ -17,7 +17,7 @@ function CardItem( props ) {
 
             <h2 className="card-title">${props.price}</h2>
             <div className="card-actions justify-end">
-            <button className="btn btn-primary ">Add to cart</button>
+              <button className="btn btn-primary">Add to cart</button>
             </div>
         </div>
     </div>

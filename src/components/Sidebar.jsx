@@ -22,11 +22,11 @@ function Sidebar() {
   };
 
   return (
-    <div className="drawer-open right-0 sticky">
+    <div className="drawer-open ">
   
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-side">
-            <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content ">
+        <div className="drawer-side ">
+            <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content sticky pt-20">
 
               <h1 className='text-lg my-5'>Search:</h1>
               <label className="form-control w-full max-w-xs">
@@ -40,6 +40,15 @@ function Sidebar() {
                 <option value="Xbox">Xbox</option>
                 <option value="Nintendo Switch">Nintendo Switch</option>
                 <option value="PC">PC</option>
+              </select>
+
+              <h1 className='text-lg my-5'>Genre:</h1>
+              <select className="select select-bordered w-full max-w-xs">
+                <option defaultChecked value="">Action</option>
+                <option value="New">Action</option>
+                <option value="Barely Used">Horror</option>
+                <option value="Used">Casual</option>
+                <option value="Digital Code">Open World</option>
               </select>
 
               <h1 className='text-lg my-5'>Condition:</h1>
