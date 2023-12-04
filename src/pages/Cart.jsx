@@ -40,7 +40,7 @@ function Cart() {
   totalCost += games.price;
   });
   return (
-    <div className='h-screen mt-10 mb-20'>
+    <div className='h-screen mt-10 mb-72'>
       <div className='flex flex-col mx-56 bg-base-200 p-10 rounded-3xl'>
       <h1 className="card-title text-3xl text-white">Cart:</h1>
           {cartItems.map((games, index) => (
