@@ -38,7 +38,7 @@ function Signup() {
                         </label>
                         <input type="password" placeholder="Confirm Password" class="w-full input input-bordered" />
                     </div>
-                    <a href="#" class="text-xs text-gray-600 hover:underline hover:text-blue-600">Already have an account?</a>
+                    <a href="#" class="text-xs hover:underline text-blue-600">Already have an account?</a>
                     <div>
                         <Link to={"/"} className="btn btn-block text-white">Sign up</Link>
                     </div>

@@ -27,7 +27,7 @@ function Login() {
                         <input type="password" placeholder="Enter Password"
                             class="w-full input input-bordered" />
                     </div>
-                    <a href="#" class="text-xs text-gray-600 hover:underline hover:text-blue-600">Forget Password?</a>
+                    <a href="#" class="text-xs hover:underline text-blue-600">Forget Password?</a>
                     <div>
                     <Link to={"/"} className="btn btn-block text-white">Login</Link>
                     </div>

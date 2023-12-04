@@ -1,159 +1,58 @@
 {
-    "newgames": [
+  "newgames": [
       {
-        "title": "Cyberpunk 2077",
-        "platform": "PlayStation 4, Xbox One, PC",
-        "releaseYear": 2020,
-        "genre": "Action RPG",
-        "price": 59.99,
-        "description": "Explore the dystopian open world of Night City in this highly anticipated RPG.",
-        "image": "https://en.wikipedia.org/wiki/File:Cyberpunk_2077_box_art.jpg"
+          "title": "Cyberpunk 2077",
+          "platform": "PlayStation 4, Xbox One, PC",
+          "releaseYear": 2020,
+          "genre": "Action RPG",
+          "price": 59.99,
+          "description": "Explore the dystopian open world of Night City in this highly anticipated RPG.",
+          "image": "https://cdn.mos.cms.futurecdn.net/VaQhu2VoDtnVCDwpBK7o7i.jpg"
       },
       {
-        "title": "The Last of Us Part II",
-        "platform": "PlayStation 4",
-        "releaseYear": 2020,
-        "genre": "Action-Adventure",
-        "price": 49.99,
-        "description": "Experience an emotional and intense story of survival in a post-apocalyptic world.",
-        "image": "https://upload.wikimedia.org/wikipedia/en/4/4f/TLOU_P2_Box_Art_2.png"
+          "title": "The Last of Us Part II",
+          "platform": "PlayStation 4",
+          "releaseYear": 2020,
+          "genre": "Action-Adventure",
+          "price": 49.99,
+          "description": "Experience an emotional and intense story of survival in a post-apocalyptic world.",
+          "image": "https://sm.ign.com/t/ign_in/screenshot/h/h3the-last/h3the-last-of-us-part-2h3inaughty-dogibrbrthe-last-of-us-par_wz43.1280.jpg"
       },
       {
-        "title": "Assassin's Creed Valhalla",
-        "platform": "PlayStation 5, Xbox Series X/S, PC",
-        "releaseYear": 2020,
-        "genre": "Action RPG",
-        "price": 69.99,
-        "description": "Embark on a Viking adventure in the ninth century as Eivor, a fierce warrior."
+          "title": "Assassin's Creed Valhalla",
+          "platform": "PlayStation 5, Xbox Series X/S, PC",
+          "releaseYear": 2020,
+          "genre": "Action RPG",
+          "price": 69.99,
+          "description": "Embark on a Viking adventure in the ninth century as Eivor, a fierce warrior.",
+          "image": "https://i.ytimg.com/vi/p2Yg3tixcvU/maxresdefault.jpg"
       },
       {
-        "title": "Demon's Souls",
-        "platform": "PlayStation 5",
-        "releaseYear": 2020,
-        "genre": "Action RPG",
-        "price": 69.99,
-        "description": "Experience the remake of the classic action RPG with stunning visuals and challenging gameplay."
+          "title": "Demon's Souls",
+          "platform": "PlayStation 5",
+          "releaseYear": 2020,
+          "genre": "Action RPG",
+          "price": 69.99,
+          "description": "Experience the remake of the classic action RPG with stunning visuals and challenging gameplay.",
+          "image": "https://media.wired.com/photos/5fb83c556d1300c9928b4219/16:9/w_1696,h_954,c_limit/games_demons-souls.jpg"
       },
       {
-        "title": "Hades",
-        "platform": "Nintendo Switch, PC",
-        "releaseYear": 2020,
-        "genre": "Action Roguelike",
-        "price": 24.99,
-        "description": "Descend into the Underworld and battle your way through hordes of mythical creatures in this critically acclaimed roguelike."
+          "title": "Hades",
+          "platform": "Nintendo Switch, PC",
+          "releaseYear": 2020,
+          "genre": "Action Roguelike",
+          "price": 24.99,
+          "description": "Descend into the Underworld and battle your way through hordes of mythical creatures in this critically acclaimed roguelike.",
+          "image": "https://images.bauerhosting.com/legacy/media/6116/41d1/6179/2314/dd40/8712/hades-main.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80"
       },
       {
-        "title": "Marvel's Spider-Man: Miles Morales",
-        "platform": "PlayStation 4, PlayStation 5",
-        "releaseYear": 2020,
-        "genre": "Action-Adventure",
-        "price": 49.99,
-        "description": "Swing through New York City as Miles Morales, the new Spider-Man, in this superhero adventure."
-      },
-      {
-        "title": "DOOM Eternal",
-        "platform": "PlayStation 4, Xbox One, PC",
-        "releaseYear": 2020,
-        "genre": "First-Person Shooter",
-        "price": 59.99,
-        "description": "Rip and tear through demonic hordes in this fast-paced and intense FPS experience."
-      },
-      {
-        "title": "Animal Crossing: New Horizons",
-        "platform": "Nintendo Switch",
-        "releaseYear": 2020,
-        "genre": "Life Simulation",
-        "price": 49.99,
-        "description": "Create your own paradise on a deserted island and interact with anthropomorphic animal villagers."
-      },
-      {
-        "title": "Star Wars Jedi: Fallen Order",
-        "platform": "PlayStation 4, Xbox One, PC",
-        "releaseYear": 2019,
-        "genre": "Action-Adventure",
-        "price": 39.99,
-        "description": "Embark on a Jedi journey in the Star Wars universe and uncover the mysteries of the Force."
-      },
-      {
-        "title": "Hitman 3",
-        "platform": "PlayStation 5, Xbox Series X/S, PC",
-        "releaseYear": 2021,
-        "genre": "Stealth",
-        "price": 59.99,
-        "description": "Become the iconic assassin Agent 47 and eliminate targets in creative and strategic ways."
-      },
-      {
-        "title": "Resident Evil Village",
-        "platform": "PlayStation 5, Xbox Series X/S, PC",
-        "releaseYear": 2021,
-        "genre": "Survival Horror",
-        "price": 59.99,
-        "description": "Enter a mysterious village and face off against grotesque creatures in the eighth installment of the Resident Evil series."
-      },
-      {
-        "title": "Deathloop",
-        "platform": "PlayStation 5, PC",
-        "releaseYear": 2021,
-        "genre": "First-Person Shooter",
-        "price": 59.99,
-        "description": "Break the time loop and assassinate targets in this stylish and innovative FPS."
-      },
-      {
-        "title": "It Takes Two",
-        "platform": "PlayStation 4, Xbox One, PC",
-        "releaseYear": 2021,
-        "genre": "Action-Adventure",
-        "price": 39.99,
-        "description": "Embark on a co-op adventure as tiny dolls in a big world, solving puzzles and overcoming challenges."
-      },
-      {
-        "title": "Ratchet & Clank: Rift Apart",
-        "platform": "PlayStation 5",
-        "releaseYear": 2021,
-        "genre": "Action-Adventure",
-        "price": 69.99,
-        "description": "Jump between dimensions with Ratchet and his robotic companion Clank in this visually stunning platformer."
-      },
-      {
-        "title": "Kena: Bridge of Spirits",
-        "platform": "PlayStation 4, PlayStation 5, PC",
-        "releaseYear": 2021,
-        "genre": "Action-Adventure",
-        "price": 39.99,
-        "description": "Guide Kena, a young spirit guide, in a charming adventure to uncover the secrets of a magical world."
-      },
-      {
-        "title": "FIFA 22",
-        "platform": "PlayStation 4, Xbox One, PC",
-        "releaseYear": 2021,
-        "genre": "Sports",
-        "price": 59.99,
-        "description": "Experience the latest installment in the popular FIFA series with updated gameplay and features."
-      },
-      {
-        "title": "Ghost of Tsushima: Director's Cut",
-        "platform": "PlayStation 4, PlayStation 5",
-        "releaseYear": 2021,
-        "genre": "Action-Adventure",
-        "price": 69.99,
-        "description": "Become a samurai in feudal Japan and protect Tsushima Island from Mongol invaders."
-      },
-      {
-        "title": "Far Cry 6",
-        "platform": "PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, PC",
-        "releaseYear": 2021,
-        "genre": "First-Person Shooter",
-        "price": 59.99,
-        "description": "Fight against a tyrannical regime in the fictional Caribbean island of Yara in this open-world shooter."
-      },
-      {
-        "title": "Hitman Sniper: The Shadows",
-        "platform": "iOS, Android",
-        "releaseYear": 2022,
-        "genre": "Sniper Shooter",
-        "price": 4.99,
-        "description": "Take on the role of a sniper and eliminate targets"
+          "title": "Marvel's Spider-Man: Miles Morales",
+          "platform": "PlayStation 4, PlayStation 5",
+          "releaseYear": 2020,
+          "genre": "Action-Adventure",
+          "price": 49.99,
+          "description": "Swing through New York City as Miles Morales, the new Spider-Man, in this superhero adventure.",
+          "image": "https://cdn1.epicgames.com/offer/f696430be718494fac1d6542cfb22542/EGS_MarvelsSpiderManMilesMorales_InsomniacGamesNixxesSoftware_S1_2560x1440-a0518b9f9f36a05294e37448df8a27a0"
       }
-    ]
+  ]
 }
-  

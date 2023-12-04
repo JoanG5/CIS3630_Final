@@ -98,6 +98,7 @@ function NewGames() {
                     alt={games.title}
                     title={games.title}
                     price={games.price}
+                    image={games.image}
                 />
             ))}
         </div>
