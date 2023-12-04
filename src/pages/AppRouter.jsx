@@ -4,8 +4,8 @@ import NewGames from "./NewGames";
 import OldGames from "./OldGames";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Signup from "../components/Signup";
-import Login from "../components/Login";
+import Signup from "./Signup";
+import Login from "./Login";
 
 function AppRouter() {
   return (

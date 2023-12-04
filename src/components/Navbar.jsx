@@ -71,6 +71,7 @@ function Navbar( props ) {
                 <Link to={"/"} className="btn btn-ghost text-white">Home</Link>
                 <Link to={"/newgames"} className="btn btn-ghost text-white">New Games</Link>
                 <Link to={"/oldgames"} className="btn btn-ghost text-white">Old Games</Link>
+                <Link to={"/cart"} className="btn btn-ghost text-white">Cart</Link>
             </div>
             <div className="flex-none">
                 <Link to={"/signup"} className="btn btn-ghost text-white">Sign Up</Link>
