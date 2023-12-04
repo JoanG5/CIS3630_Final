@@ -2,7 +2,7 @@ import React from 'react'
 
 function CardItem( props ) {
   return (
-    <div className="card w-56 bg-base-100 card-compact shadow-xl m-5 ">
+    <div className="card w-72 min-h-auto bg-base-100 card-compact shadow-xl m-5 ">
         <figure><img src={props.image} alt={props.alt} style={{ minHeight: '100px', minWidth: '250px' }} /></figure>
         <div className="card-body">
             <h2 className="card-title text-ellipsis overflow-hidden">{props.title}</h2>
@@ -12,7 +12,7 @@ function CardItem( props ) {
                 <input type="radio" name="rating-1" className="mask mask-star" />
                 <input type="radio" name="rating-1" className="mask mask-star" />
                 <input type="radio" name="rating-1" className="mask mask-star" />
-                <input type="radio" name="rating-1" className="mask mask-star" checked />
+                <input type="radio" name="rating-1" className="mask mask-star" readOnly />
             </div>
 
             <h2 className="card-title">${props.price}</h2>

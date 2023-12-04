@@ -1,44 +1,43 @@
 import React, { useEffect, useState } from 'react'
-import axios from 'axios'
 import CardItem from '../components/CardItem'
 import Sidebar from '../components/Sidebar'
+import newgames from '../assets/newgames.json'
+import axios from "axios"
 
-const options = {
-    method: 'GET',
-    url: 'https://all-in-one-all-in-one.p.rapidapi.com/single_game/3498',
-    headers: {
-      id: 'sa',
-      'X-RapidAPI-Key': 'e596ff4a8emshb56dc10f4742f74p1c5247jsna327d8994d77',
-      'X-RapidAPI-Host': 'all-in-one-all-in-one.p.rapidapi.com'
-    }
-};
+
 
 function NewGames() {
-  
-    const [games, setGames] = useState();
+  // const [games, setGames] = useState([]);
 
-    useEffect(() => {
-      const fetchData = async () => {
-        try {
-          const response = await axios.request(options);
-          setGames(response.data);
-          console.log(games)
-        } catch (error) {
-          console.error(error);
-        }
-      };
-  
-      fetchData();
-    }, [])
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const response = await axios.post(
+  //         'http://localhost:5000/api/games',  // Point to your Express server
+  //         {
+  //           fields: 'name,summary,cover.url',
+  //           limit: 10,
+  //         }
+  //       );
+  //       const formattedGames = response.data.map(game => ({
+  //         name: game.name,
+  //         summary: game.summary,
+  //         coverUrl: game.cover ? game.cover.url : null, // Check if cover is available
+  //       }));
+  //       setGames(formattedGames);
+  //     } catch (error) {
+  //       console.error('Error fetching data:', error);
+  //     }
+  //   };
+
+  //   fetchData();
+  // }, []);
+  // console.log(games)
 
   return (
-    <div>
-        
-        <div className="float-left">
-            <Sidebar/>
-        </div>
-
-        <div className='flex flex-box flex-wrap justify-start'>
+    <div className='flex flex-box'>
+        <Sidebar/>
+        <div className='flex flex-box flex-wrap justify-start left-0'>
             <CardItem
                 image="https://media.rawg.io/media/games/a8a/a8a74f30ce82dbde168176a4aa04ac58.jpg"
                 alt="Marvel's Spider-Man 2 - PS5"
@@ -93,6 +92,14 @@ function NewGames() {
                 title="Atlas Fallen"
                 price="69.99"
             />
+            {newgames["newgames"].map((games, index) => (
+                <CardItem
+                    key={index}
+                    alt={games.title}
+                    title={games.title}
+                    price={games.price}
+                />
+            ))}
         </div>
     </div>
   )

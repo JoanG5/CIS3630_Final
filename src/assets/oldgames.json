@@ -1,0 +1,181 @@
+{
+    "oldgames": [
+      {
+        "title": "Super Mario Bros.",
+        "platform": "Nintendo Entertainment System (NES)",
+        "releaseYear": 1985,
+        "genre": "Platformer",
+        "price": 19.99,
+        "description": "Join Mario in his quest to rescue Princess Peach from the evil Bowser."
+      },
+      {
+        "title": "The Legend of Zelda",
+        "platform": "Nintendo Entertainment System (NES)",
+        "releaseYear": 1986,
+        "genre": "Action-Adventure",
+        "price": 24.99,
+        "description": "Embark on a legendary journey to save Princess Zelda and defeat Ganon."
+      },
+      {
+        "title": "Pac-Man",
+        "platform": "Arcade",
+        "releaseYear": 1980,
+        "genre": "Arcade",
+        "price": 9.99,
+        "description": "Guide Pac-Man through the maze, avoid ghosts, and eat those pellets!"
+      },
+      {
+        "title": "Space Invaders",
+        "platform": "Arcade",
+        "releaseYear": 1978,
+        "genre": "Shoot 'em up",
+        "price": 14.99,
+        "description": "Defend Earth from invading alien forces in this classic shooter."
+      },
+      {
+        "title": "Donkey Kong",
+        "platform": "Arcade",
+        "releaseYear": 1981,
+        "genre": "Platformer",
+        "price": 17.99,
+        "description": "Climb platforms and save the princess from the giant ape, Donkey Kong."
+      },
+      {
+        "title": "Mega Man",
+        "platform": "Nintendo Entertainment System (NES)",
+        "releaseYear": 1987,
+        "genre": "Action-Platformer",
+        "price": 22.99,
+        "description": "Play as Mega Man and battle through robot bosses to save the world."
+      },
+      {
+        "title": "Tetris",
+        "platform": "Various",
+        "releaseYear": 1984,
+        "genre": "Puzzle",
+        "price": 12.99,
+        "description": "Arrange falling blocks to complete lines and score points in this addictive puzzle game."
+      },
+      {
+        "title": "Final Fantasy",
+        "platform": "Nintendo Entertainment System (NES)",
+        "releaseYear": 1987,
+        "genre": "Role-Playing Game (RPG)",
+        "price": 29.99,
+        "description": "Embark on a quest to save the world from an ancient evil in this classic RPG."
+      },
+      {
+        "title": "Galaga",
+        "platform": "Arcade",
+        "releaseYear": 1981,
+        "genre": "Shoot 'em up",
+        "price": 15.99,
+        "description": "Fight off waves of insect-like alien invaders in this space shooter."
+      },
+      {
+        "title": "Street Fighter II",
+        "platform": "Arcade",
+        "releaseYear": 1991,
+        "genre": "Fighting",
+        "price": 27.99,
+        "description": "Select your fighter and battle against opponents in this iconic fighting game."
+      },
+      {
+        "title": "Metroid",
+        "platform": "Nintendo Entertainment System (NES)",
+        "releaseYear": 1986,
+        "genre": "Action-Adventure",
+        "price": 21.99,
+        "description": "Explore a vast alien world as the bounty hunter Samus Aran."
+      },
+      {
+        "title": "Centipede",
+        "platform": "Arcade",
+        "releaseYear": 1980,
+        "genre": "Shoot 'em up",
+        "price": 11.99,
+        "description": "Shoot and destroy the centipede as it descends through the mushroom-filled battlefield."
+      },
+      {
+        "title": "Duck Hunt",
+        "platform": "Nintendo Entertainment System (NES)",
+        "releaseYear": 1984,
+        "genre": "Light Gun Shooter",
+        "price": 14.99,
+        "description": "Grab your NES Zapper and take aim at ducks in this classic shooting game."
+      },
+      {
+        "title": "Castlevania",
+        "platform": "Nintendo Entertainment System (NES)",
+        "releaseYear": 1986,
+        "genre": "Action-Platformer",
+        "price": 23.99,
+        "description": "Battle Dracula and his minions as the vampire hunter Simon Belmont."
+      },
+      {
+        "title": "Sonic the Hedgehog",
+        "platform": "Sega Genesis",
+        "releaseYear": 1991,
+        "genre": "Platformer",
+        "price": 26.99,
+        "description": "Run, jump, and spin your way through levels as the speedy blue hedgehog Sonic."
+      },
+      {
+        "title": "Asteroids",
+        "platform": "Arcade",
+        "releaseYear": 1979,
+        "genre": "Shoot 'em up",
+        "price": 13.99,
+        "description": "Navigate your spaceship through an asteroid field and shoot down the space rocks."
+      },
+      {
+        "title": "Contra",
+        "platform": "Nintendo Entertainment System (NES)",
+        "releaseYear": 1988,
+        "genre": "Run and Gun",
+        "price": 25.99,
+        "description": "Team up with a friend and battle through side-scrolling levels filled with enemies."
+      },
+      {
+        "title": "Pong",
+        "platform": "Arcade",
+        "releaseYear": 1972,
+        "genre": "Sports",
+        "price": 8.99,
+        "description": "Experience the classic game of virtual table tennis in Pong."
+      },
+      {
+        "title": "Double Dragon",
+        "platform": "Arcade",
+        "releaseYear": 1987,
+        "genre": "Beat 'em up",
+        "price": 18.99,
+        "description": "Fight your way through the streets to rescue Marian in this iconic beat 'em up."
+      },
+      {
+        "title": "Mortal Kombat",
+        "platform": "Arcade",
+        "releaseYear": 1992,
+        "genre": "Fighting",
+        "price": 29.99,
+        "description": "Enter the brutal tournament and test your might against other fighters."
+      },
+      {
+        "title": "Bomberman",
+        "platform": "Nintendo Entertainment System (NES)",
+        "releaseYear": 1985,
+        "genre": "Puzzle",
+        "price": 20.99,
+        "description": "Strategically place bombs to defeat enemies and reach the exit in this classic puzzle game."
+      },
+      {
+        "title": "Mario Kart 64",
+        "platform": "Nintendo 64",
+        "releaseYear": 1996,
+        "genre": "Racing",
+        "price": 33.99,
+        "description": "Race against friends"
+    }
+    ]  
+}
+  
