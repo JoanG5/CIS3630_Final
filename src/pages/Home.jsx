@@ -52,6 +52,7 @@ function Home() {
                 title="Checkout The Classics!"
                 description="Dive in to find the nostalgic games that made your childhood!
                 Click to relive the magic!"
+                page="oldgames"
             />
             <CardSide
                 image={newgames}
@@ -60,6 +61,7 @@ function Home() {
                 description="Discover the latest gaming thrills! 
                 Explore a world of endless possibilities with our newest game releases. 
                 Click to experience excitement now!"
+                page="newgames"
             />
             
         </div>

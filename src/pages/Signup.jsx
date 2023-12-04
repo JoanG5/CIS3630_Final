@@ -30,13 +30,13 @@ function Signup() {
                         <label class="label">
                             <span class="text-base label-text">Password</span>
                         </label>
-                        <input type="text" placeholder="Password" class="w-full input input-bordered" />
+                        <input type="password" placeholder="Password" class="w-full input input-bordered" />
                     </div>
                     <div>
                         <label class="label">
                             <span class="text-base label-text">Confirm Password</span>
                         </label>
-                        <input type="text" placeholder="Confirm Password" class="w-full input input-bordered" />
+                        <input type="password" placeholder="Confirm Password" class="w-full input input-bordered" />
                     </div>
                     <a href="#" class="text-xs text-gray-600 hover:underline hover:text-blue-600">Already have an account?</a>
                     <div>

@@ -22,7 +22,7 @@ function Login() {
                     </div>
                     <div>
                         <label class="label">
-                            <span class="text-base label-text">Password</span>
+                            <span class="text-base label-text ">Password</span>
                         </label>
                         <input type="password" placeholder="Enter Password"
                             class="w-full input input-bordered" />

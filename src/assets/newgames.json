@@ -6,7 +6,8 @@
         "releaseYear": 2020,
         "genre": "Action RPG",
         "price": 59.99,
-        "description": "Explore the dystopian open world of Night City in this highly anticipated RPG."
+        "description": "Explore the dystopian open world of Night City in this highly anticipated RPG.",
+        "image": "https://en.wikipedia.org/wiki/File:Cyberpunk_2077_box_art.jpg"
       },
       {
         "title": "The Last of Us Part II",
@@ -14,7 +15,8 @@
         "releaseYear": 2020,
         "genre": "Action-Adventure",
         "price": 49.99,
-        "description": "Experience an emotional and intense story of survival in a post-apocalyptic world."
+        "description": "Experience an emotional and intense story of survival in a post-apocalyptic world.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/4/4f/TLOU_P2_Box_Art_2.png"
       },
       {
         "title": "Assassin's Creed Valhalla",

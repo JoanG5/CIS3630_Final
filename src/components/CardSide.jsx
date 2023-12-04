@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function CardSide( props ) {
   return (
@@ -11,7 +12,7 @@ function CardSide( props ) {
             <h1 className="card-title uppercase text-white">{props.title}</h1>
             <p className='text-white'>{props.description}</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Go</button>
+            <Link to={`/${props.page}`} className="btn btn-primary">Go</Link>
             </div>
         </div>
 
