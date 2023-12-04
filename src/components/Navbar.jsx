@@ -20,6 +20,7 @@ function Navbar( props ) {
                                 <Link to={"/newgames"} className="btn btn-ghost text-white">New Games</Link>
                                 <Link to={"/oldgames"} className="btn btn-ghost text-white">Old Games</Link>
                                 <Link to={"/cart"} className="btn btn-ghost text-white">Cart</Link>
+                                <Link to={"/form"} className="btn btn-ghost text-white">form</Link>
                             </div>
                             </header>
                         </div>
@@ -72,6 +73,7 @@ function Navbar( props ) {
                 <Link to={"/newgames"} className="btn btn-ghost text-white">New Games</Link>
                 <Link to={"/oldgames"} className="btn btn-ghost text-white">Old Games</Link>
                 <Link to={"/cart"} className="btn btn-ghost text-white">Cart</Link>
+                <Link to={"/form"} className="btn btn-ghost text-white">Contact Us</Link>
             </div>
             <div className="flex-none">
                 <Link to={"/signup"} className="btn btn-ghost text-white">Sign Up</Link>
